@@ -1,0 +1,20 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    String input = "India is my country";
+        String[] in = input.split(" ");
+         System.out.println("Try programiz.pro"+in.length);
+        StringBuffer sb = new StringBuffer();
+        for(int i=in.length-1; i>=0; i--){
+            sb = sb.append(in[i]).append(" ");
+        }
+        System.out.println("Try programiz.pro  "+sb.toString());
+	}
+}
+
+1. Linked hashmap
+2. Abstract vs Interface
+3. Solid principles
+4. JWT - Security 
+5. Encryption alogirithyms
+6. 
